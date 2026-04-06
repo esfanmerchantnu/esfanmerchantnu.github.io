@@ -20,7 +20,10 @@ const Loading = ({ percent }: { percent: number }) => {
   }
 
   useEffect(() => {
-    import("./utils/initialFX").then((module) => {
+    Promise.all([
+      import("./utils/initialFX"),
+      document.fonts?.ready ?? Promise.resolve(),
+    ]).then(([module]) => {
       if (isLoaded) {
         setClicked(true);
         setTimeout(() => {
