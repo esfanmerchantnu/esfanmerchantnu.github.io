@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Dark background with subtle rounded square -->
+  <rect width="64" height="64" rx="14" fill="#0a0a0f"/>
+  
+  <!-- Accent glow backdrop -->
+  <rect x="4" y="4" width="56" height="56" rx="11" fill="#0f0f1a"/>
+
+  <!-- Top-left corner bracket -->
+  <path d="M10 22 L10 10 L22 10" stroke="#a78bfa" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Bottom-right corner bracket -->
+  <path d="M54 42 L54 54 L42 54" stroke="#a78bfa" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Letter E -->
+  <path d="M13 20 L13 44 M13 20 L26 20 M13 32 L23 32 M13 44 L26 44" 
+        stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Letter M -->
+  <path d="M30 44 L30 20 L38 34 L46 20 L46 44" 
+        stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Accent dot — subtle AI node feel -->
+  <circle cx="54" cy="10" r="3" fill="#a78bfa" opacity="0.9"/>
+</svg>
